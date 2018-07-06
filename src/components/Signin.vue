@@ -6,7 +6,6 @@
       <input type="password" placeholder="Password" class="form-control" v-model="password" >
       <button  @click="signIn" type="button" class="btn btn-primary" >Sign In</button>
     </div>
-
     <br>
     <p>{{error.message}}</p>
   </div>
