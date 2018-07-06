@@ -7,6 +7,7 @@
       <button  @click="signIn" type="button" class="btn btn-primary" >Sign In</button>
     </div>
     <br>
+    <router-link to="/signup">Not a user? Sign Up!! </router-link>
     <p>{{error.message}}</p>
   </div>
 </template>
