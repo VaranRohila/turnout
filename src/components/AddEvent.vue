@@ -8,7 +8,7 @@
         <input type="text" class="form-control" v-model="event.title">
       </div>
       <div class="form-group">
-        <label>description</label>
+        <label>Description</label>
         <input type="text" class="form-control" v-model="event.description">
       </div>
       <div class="form-group">
@@ -43,6 +43,11 @@ import { eventsRef } from '../firebaseApp'
       addEvent() {
         this.event.email = this.$store.state.user.email;
         eventsRef.push(this.event)
+        this.event.title=''
+        this.event.description=''
+        this.event.date=''
+        this.event.location=''
+        this.event.email=''
       }
     }
   }

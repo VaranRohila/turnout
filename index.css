@@ -15,3 +15,7 @@
 .form {
   padding: 0px 40px;
 }
+.card-body{
+  border: 2px solid #2C3350;
+  border-radius: 2em;
+}
