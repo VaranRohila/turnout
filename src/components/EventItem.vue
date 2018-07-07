@@ -10,7 +10,7 @@
           <hr>
           <p class="card-text"><b>Date:</b> {{event.date}}</p>
           <hr>
-          <p class="card-text"><b>Email:</b> {{event.email}}</p>
+          <p class="card-text"><b>Host:</b> {{event.email}}</p>
           <hr>
           <p class="card-text"><b>Location:</b> {{event.location}}</p>
           <hr>
